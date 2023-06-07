@@ -63,4 +63,3 @@ $(".nav-list a").on("click", function (event){
         );    
     }
 });
-
