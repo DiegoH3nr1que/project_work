@@ -43,6 +43,7 @@ const mobileNavbar = new MobileNavbar(
 
 mobileNavbar.init();
 
+
 var typed = new Typed(".input",{
     strings:["Seja bem Vindo!"],
     typeSpeed: 60,
