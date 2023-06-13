@@ -64,3 +64,31 @@ $(".nav-list a").on("click", function (event){
         );    
     }
 });
+
+// Gerando um valor RGB aleatório
+var red = Math.floor(Math.random() * 256);
+var green = Math.floor(Math.random() * 256);
+var blue = Math.floor(Math.random() * 256);
+
+// Aplicando a cor à barra de rolagem
+document.documentElement.style.setProperty('--scrollbar-color', red + ', ' + green + ', ' + blue);
+
+
+
+// Obtendo referências para o botão e a div
+var botao = document.getElementById("saibaMais");
+var div = document.getElementById("sobre-ling");
+
+// Adicionando um evento de clique ao botão
+botao.addEventListener("click", function() {
+  // Verificando o estado de exibição da div
+  if (div.style.display === "none") {
+    // Se a div estiver oculta, torná-la visível
+    div.style.display = "grid";
+  } else {
+    // Caso contrário, ocultá-la novamente
+    div.style.display = "none";
+  }
+});
+
+
