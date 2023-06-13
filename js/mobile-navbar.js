@@ -91,4 +91,73 @@ botao.addEventListener("click", function() {
   }
 });
 
+var botao1 = document.getElementById("saibaMaisJava");
+var div1 = document.getElementById("sobre-Java");
 
+botao1.addEventListener("click", function() {
+    // Verificando o estado de exibição da div
+    if (div1.style.display === "none") {
+      // Se a div estiver oculta, torná-la visível
+      div1.style.display = "grid";
+    } else {
+      // Caso contrário, ocultá-la novamente
+      div1.style.display = "none";
+    }
+});
+  
+
+var botao2 = document.getElementById("saibaMaisBanco");
+var div2 = document.getElementById("sobre-Bdados");
+
+botao2.addEventListener("click", function() {
+    // Verificando o estado de exibição da div
+    if (div2.style.display === "none") {
+      // Se a div estiver oculta, torná-la visível
+      div2.style.display = "grid";
+    } else {
+      // Caso contrário, ocultá-la novamente
+      div2.style.display = "none";
+    }
+});
+
+var botao3 = document.getElementById("saibaMaisAuto");
+var div3 = document.getElementById("sobre-Auto");
+
+botao3.addEventListener("click", function() {
+    // Verificando o estado de exibição da div
+    if (div3.style.display === "none") {
+      // Se a div estiver oculta, torná-la visível
+      div3.style.display = "grid";
+    } else {
+      // Caso contrário, ocultá-la novamente
+      div3.style.display = "none";
+    }
+});
+
+var botao4 = document.getElementById("saibaMaisCiencia");
+var div4 = document.getElementById("sobre-Ciencia");
+
+botao4.addEventListener("click", function() {
+    // Verificando o estado de exibição da div
+    if (div4.style.display === "none") {
+      // Se a div estiver oculta, torná-la visível
+      div4.style.display = "grid";
+    } else {
+      // Caso contrário, ocultá-la novamente
+      div4.style.display = "none";
+    }
+});
+
+var botao5 = document.getElementById("saibaMaisRedes");
+var div5 = document.getElementById("sobre-Redes");
+
+botao5.addEventListener("click", function() {
+    // Verificando o estado de exibição da div
+    if (div5.style.display === "none") {
+      // Se a div estiver oculta, torná-la visível
+      div5.style.display = "grid";
+    } else {
+      // Caso contrário, ocultá-la novamente
+      div5.style.display = "none";
+    }
+});
