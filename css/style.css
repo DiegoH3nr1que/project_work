@@ -47,6 +47,7 @@ body{
         justify-content: space-around;
     }
     .me{
+        margin-top: 30px;
         width: 200px;
         border-radius: 10%;
     }
@@ -328,8 +329,7 @@ nav{
 }
 
 #saibaMais{
-    width: 20%;
-    display: fixed;
+    display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -339,6 +339,7 @@ nav{
     background-color: #7c9694;
     color: #ffffff;
     border: none;
+    transition: height 0.3s ease;
 }
 #saibaMais:hover{
     scale: 105%;
@@ -381,13 +382,20 @@ nav{
     flex-direction: column;
     gap: 10px;
 }
-#exercicioHTML{
+.exercicioHTML{
     display: flex;
     flex-direction: column;
     width:93%;
+    height: auto;
     gap: 10px; 
 }
-
+.ExercicioAuto{
+    display: flex;
+    flex-direction: column;
+    width: 56vh;
+    height: auto;
+    gap: 10px;
+}
 
 
 
@@ -757,6 +765,9 @@ nav{
     padding: 50px;
     gap: 10px;
 }
+#sobre-Redes video{
+    width: 100%;
+}
 
 
 
@@ -765,13 +776,20 @@ nav{
 
 
 
-
-#footer{
+#links{
+    display: flex;
+    justify-content: space-around;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #23232e;
     color: #ffffff;
     padding: 10px;
-    text-align: center;
+    text-align: center; 
+}
+#links img{
+    width: 50px;
+}
+#img{
+    filter: invert();
 }
 
 body::-webkit-scrollbar {

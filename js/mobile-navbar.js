@@ -65,14 +65,6 @@ $(".nav-list a").on("click", function (event){
     }
 });
 
-// Gerando um valor RGB aleatório
-var red = Math.floor(Math.random() * 256);
-var green = Math.floor(Math.random() * 256);
-var blue = Math.floor(Math.random() * 256);
-
-// Aplicando a cor à barra de rolagem
-document.documentElement.style.setProperty('--scrollbar-color', red + ', ' + green + ', ' + blue);
-
 
 
 // Obtendo referências para o botão e a div
@@ -147,6 +139,7 @@ botao4.addEventListener("click", function() {
       div4.style.display = "none";
     }
 });
+
 
 var botao5 = document.getElementById("saibaMaisRedes");
 var div5 = document.getElementById("sobre-Redes");
