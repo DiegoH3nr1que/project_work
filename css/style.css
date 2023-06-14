@@ -371,12 +371,12 @@ nav{
 
 
 
-#curriculoWeb{
+.curriculoWeb{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-#exercicio5{
+.exercicio5{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -387,7 +387,6 @@ nav{
     width:93%;
     gap: 10px; 
 }
-
 
 
 
@@ -601,7 +600,7 @@ nav{
     background:rgba(171, 171, 171, 0.2);
     height: auto;
     width: 90%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     text-align: center;
     border-radius: 10px;
@@ -612,9 +611,7 @@ nav{
 #sobre-Auto video{
     width: 100%;
 }
-#RoboVideo video{
-    width: 93%;
-}
+
 
 
 
@@ -687,7 +684,9 @@ nav{
     padding: 50px;
     gap: 10px;
 }
-
+#sobre-Ciencia video{
+    width: 100%;
+}
 
 
 
