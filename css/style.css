@@ -817,16 +817,10 @@ nav{
 }
 
 body::-webkit-scrollbar {
-    width: 20px; /* Largura da barra de rolagem */
-  }
+    width: 0px; /* Largura da barra de rolagem */
+}
   
-  body::-webkit-scrollbar-track {
-    background: linear-gradient(to top, #719bb3, #23232e) /* Cor de fundo da barra de rolagem */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background: #23232e;
-  }
+
 
   .cube-loader {
     position: relative;
